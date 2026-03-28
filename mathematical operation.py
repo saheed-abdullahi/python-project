@@ -10,6 +10,8 @@ print("The addition of the three number is: "+str(addition))
 print("The subtraction of the three number is "+str(subtraction))
 print("The multiplication of the three number is "+str( multiplication))
 print("The division of the three number is: "+str(division))
+print("Goodbye")
+
 
 
 
