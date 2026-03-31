@@ -1,0 +1,5 @@
+print("perform any arithmetic tasks of two numbers")
+a = int(input("Enter first number: "))
+c =  input("Enter any arithmetic operation" )
+b = int(input("Enter second number: "))
+if (a + b)

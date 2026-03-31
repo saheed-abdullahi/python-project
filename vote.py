@@ -10,5 +10,3 @@ if (age>=18):
     print ("Hi "+name+ " you can take part in the election")
 else:
     print( "hi " +name+" you cannot participate in the election because your age is "+str(age)+ "years, you will wait for " +str(18-age)+ " year")
-
-

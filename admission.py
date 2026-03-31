@@ -7,3 +7,4 @@ if(score >= 60):
     print("congratulations! " +name+ " you are grant for the admission to our college(college of health)")
 else:
     print("sorry fellow applicant," +name+ ", your score is "+str(score)+ " and it is less than our cut of mark. you need " +str(60-score)+ " to allow for the addmission")
+    
