@@ -1,4 +1,4 @@
-#find union and  of 2 set
+# #find union and  of 2 set
 a = {1,2,3,4,5}
 b = {3,4,5,6,7,8}
 c = a.union(b)
@@ -44,4 +44,38 @@ print("These are the differences of the two set")
 print(k)
 print(j)
 
+st = {1,2,3,4,5,6,7,8,}
+print(st)
+print(len(st))
+print(min(st))
+print(max(st))
 
+
+# 1. Prompt the user for the first set of numbers
+input1 = input("Enter five numbers for set1 separated by space: ")
+# Convert the string input into a set of integers
+set1 = set(map(int, input1.split()))
+
+# 2. Prompt the user for the second set of numbers
+input2 = input("Enter five numbers for set2 separated by space: ")
+# Convert the string input into a set of integers
+set2 = set(map(int, input2.split()))
+
+# 3. Print both sets
+print(f"\nSet 1: {set1}")
+print(f"Set 2: {set2}")
+
+print("-" * 30)
+
+# 4. Perform Set Operations
+# Union: All unique elements from both sets
+print(f"Union: {set1 | set2}")
+
+# Intersection: Only elements present in both sets
+print(f"Intersection: {set1 & set2}")
+
+# Difference: Elements in set1 that are NOT in set2
+print(f"Difference (set1 - set2): {set1 - set2}")
+
+# Symmetric Difference: Elements in either set, but NOT in both
+print(f"Symmetric Difference: {set1 ^ set2}")
